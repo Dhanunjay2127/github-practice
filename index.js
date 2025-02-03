@@ -8,3 +8,7 @@ function sayName() {
 function isMajor() {
   return age > 18;
 }
+
+function Major() {
+  return age > 18;
+}
