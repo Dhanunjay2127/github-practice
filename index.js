@@ -1,10 +1,7 @@
-const name = "Dhanunjaya";
-const age = 24;
+import express from "express";
 
-function sayName() {
-  console.log(name);
-}
+const app = express();
 
-function isMajor() {
-  return age > 18;
-}
+app.listen(3000, () => {
+  console.log("server running in 3000");
+});
